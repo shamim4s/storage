@@ -1,0 +1,126 @@
+
+
+
+<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			overflow: hidden;
+		}
+
+
+
+		svg {
+			text-align: center;
+			overflow: hidden;
+		}
+
+		  #Vector_1097, #Vector_1098, #Vector_880, #Vector_1014, #Vector_1015, #Vector_894, #Vector_895, #Vector_992, #Vector_993, #Vector_1028, #Vector_1029, #Vector_1087, #Vector_1088,  #Vector_1072, #Vector_1071, #Vector_948 ,#Vector_947, #Vector_963, #Vector_964, #Vector_965,#Vector_879 {
+		    display: none;
+		}
+
+
+
+		#right-wheel,
+		#left-wheel {
+
+			animation: wheel 2s infinite linear;
+			transform-origin: center;
+			transform-box: fill-box;
+		}
+
+		@keyframes wheel {
+			from {
+				transform: rotateZ(0deg)
+			}
+
+			to {
+				transform: rotateZ(360deg)
+			}
+
+		}
+#man-bike {
+	animation: bike 1s ease-in-out infinite alternate;
+	transform-origin: bottom;
+}
+
+@keyframes bike {
+	from {
+		transform: rotateX(0deg);
+	}
+	to{
+		transform: rotateX(10deg);
+	}
+}
+#hat {
+	animation: hat-ani 1s ease-in-out infinite alternate;
+	transform-origin: bottom;
+}
+
+@keyframes hat-ani {
+	from {
+		transform: rotateX(0deg);
+	}
+	to{
+		transform: rotateX(20deg);
+	}
+}
+
+
+
+
+#signboard2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9
+  -webkit-animation: backScroll 12.5s linear infinite;
+  animation: backScroll 12.5s linear infinite;
+}
+
+
+
+#road2 {
+  position : absolute;
+  left :0;
+  right:0;
+  bottom:0;
+  z-index : 9;
+  -webkit-animation: frontScroll 12.5s linear infinite;
+ animation: frontScroll 12.5s linear infinite;
+}
+
+#road {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9
+  -webkit-animation: backScroll 12.5s linear infinite;
+  animation: backScroll 12.5s linear infinite;
+}
+
+keyframes frontScroll {
+from {transform: translateX(100%);}
+to {transform: translateX(0);}
+}
+
+@-webkit-keyframes frontScroll {
+from {transform: translateX(100%);}
+to {transform: translateX(0);}
+}
+
+keyframes backScroll {
+from {transform: translateX(0%);}
+to {transform: translateX(-100%);}
+}
+
+@-webkit-keyframes backScroll {
+from {transform: translateX(0%);}
+to {transform: translateX(-100%);}
+}
+
+
+	</style>
