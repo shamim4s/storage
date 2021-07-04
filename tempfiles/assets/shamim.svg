@@ -26,13 +26,13 @@
   
   <defs>
     <pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
-      <path fill="#58a6ff" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+      <path  d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
     </pattern>
     
     <text id="text" transform="matrix(1 0 0 1 -8.0684 116.7852)" font-family="'Cabin Condensed' , sans-serif" font-size="160">SHAMIM</text>
     
     <mask id="text_mask">
-      <use x="0" y="0" xlink:href="#text" opacity="1" fill="#58a6ff"/>
+      <use x="0" y="0" xlink:href="#text" opacity="1" />
     </mask>
   </defs>
  
