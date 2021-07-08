@@ -1,9 +1,6 @@
 <svg viewBox="0 0 1350 670" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 
-
-
-
 <style>
 
 		* {
@@ -12,7 +9,6 @@
 			box-sizing: border-box;
 			overflow: hidden;
 		}
-
 
 
 		svg {
@@ -71,9 +67,6 @@
 	}
 }
 
-
-
-
 #signboard2 {
   position: absolute;
   bottom: 0;
@@ -83,8 +76,6 @@
   -webkit-animation: signScroll 15s linear infinite;
   animation: signScroll 15s linear infinite;
 }
-
-
 
 #road2 {
   position : absolute;
